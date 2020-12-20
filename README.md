@@ -9,10 +9,10 @@ Using with [NPM](https://www.npmjs.com/):
     $ npm install --save @blacktoolbox/react-timeline
 
     // using ES6 modules
-    import Menu from '@blacktoolbox/react-timeline';
+    import Timeline from '@blacktoolbox/react-timeline';
 
     // using CommonJS modules
-    var Menu = require('@blacktoolbox/react-timeline');
+    var Timeline = require('@blacktoolbox/react-timeline');
 
 # Issue
 

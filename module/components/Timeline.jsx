@@ -5,7 +5,7 @@ import getStyle from '../utils/getStyle.js';
 import formatCamelCase from '../utils/formatCamelCase.js';
 
 const Timeline = React.forwardRef((props, ref) => {
-  const { position = 'left', align = "start", nodeList = [], typeObj={} } = props;
+  const { position = 'left', align = "begin", nodeList = [], typeObj={} } = props;
   const styleObj = formatCamelCase(props.styleObj || {});
 
   return (
